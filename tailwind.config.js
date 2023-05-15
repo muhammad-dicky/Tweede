@@ -1,3 +1,5 @@
+const { default: plugin } = require('tailwindcss');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,11 +9,23 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        poppins: ['Poppins']
       },
+      colors: {
+        "ijo-lumut": "#247881",
+        "ijo-muda": "#F5F5F5",
+        "ijo-transparant": "#D3E4E6",
+        "tulisan": "#494A4B",
+        "pink": "#FFB6B633",
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/bg-hero.png')",
+      },
+      container: {
+        center: true,
+      }
+
     },
   },
   plugins: [],
