@@ -15,8 +15,9 @@ npm (Node Package Manager) or Yarn
 
 Getting Started
 To get started with the Tweede frontend project, follow these steps:
-Clone the repository from GitHub:
+
 ```bash
+# Clone the repository from GitHub:
 git clone <repository_url>
 # Change to the project directory:
 cd tweede-frontend
@@ -26,14 +27,7 @@ npm install
 yarn
 # Start the development server:
 npm run dev
-```
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# or yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
