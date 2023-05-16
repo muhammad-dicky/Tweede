@@ -1,8 +1,32 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Tweede Frontend Documentation
 
-First, run the development server:
+This documentation provides an overview and instructions for the Tweede frontend project, which is built using Next.js and Tailwind CSS.
+
+Project Overview
+Tweede is a frontend application built using Next.js and Tailwind CSS. It aims to provide a user-friendly and responsive interface for a specific purpose (describe the purpose or features of your app here).
+
+Prerequisites
+Before getting started with the Tweede frontend project, make sure you have the following software installed on your system:
+
+Node.js (v14 or higher)
+npm (Node Package Manager) or Yarn
+
+Getting Started
+To get started with the Tweede frontend project, follow these steps:
+Clone the repository from GitHub:
+```bash
+git clone <repository_url>
+# Change to the project directory:
+cd tweede-frontend
+# Install the project dependencies:
+npm install
+# or
+yarn
+# Start the development server:
+npm run dev
+```
 
 ```bash
 npm run dev
