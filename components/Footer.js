@@ -4,15 +4,15 @@ export default function Footer() {
     return (
 
         <footer className="bg-ijo-lumut py-20">
-            <div className="container mx-auto flex items-center justify-between">
-                <div className="flex items-center">
+            <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+                <div className="flex items-center mb-8 md:mb-0">
                     <img src="/logo-white.png" alt="Logo" className="" />
 
                 </div>
-                <div className="flex">
+                <div className="flex flex-col md:flex-row">
 
 
-                    <div className="ml-8 w-3/12">
+                    <div className="ml-8 w-full md:w-3/12">
                         <h4 className="font-bold text-base font-poppins text-white">Social Media</h4>
                         <ul className="flex flex-col   space-y-3 justify-start">
                             <li className="flex items-center">
@@ -54,7 +54,7 @@ export default function Footer() {
 
 
 
-                    <div className="ml-20 text-white w-3/12">
+                    <div className="ml-8 md:ml-20 text-white w-full md:w-3/12">
                         <h4 className="font-bold text-base">Jelajahi Tweede</h4>
                         <p className="mt-2 text-sm  hover:text-gray-900">Home</p>
                         <p className="mt-2 text-sm  hover:text-gray-900">Tentang kami</p>
@@ -63,7 +63,7 @@ export default function Footer() {
 
 
 
-                    <div className="ml-20 w-7/12">
+                    <div className="ml-8 md:ml-20 w-full md:w-7/12">
                         <h4 className="font-bold text-base font-poppins text-white">Kontak Kami</h4>
                         <ul className="flex flex-col   space-y-3 justify-start">
                             <li className="flex items-center">
@@ -111,3 +111,4 @@ export default function Footer() {
         </footer>
     )
 }
+
