@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
 
 
-
     </head><html lang="en">
         <body className={inter.className}>{children}</body>
       </html></>

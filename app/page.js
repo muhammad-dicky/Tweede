@@ -26,7 +26,6 @@ export default function Home() {
           <div className="w-2/12 text-lg font-semibold mx-auto ">
             <img src='/logo.png' className='w-full'></img>
           </div>
-
           <div className="w-6/12">
             <Nav />
           </div>
